@@ -73,4 +73,8 @@ class User extends Authenticatable implements MustVerifyEmail
         return $this->hasMany(SupportTicket::class);
     }
 
+    public function devices()
+    {
+        return $this->hasMany(UserDevice::class);
+    }
 }
