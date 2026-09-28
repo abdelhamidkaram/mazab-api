@@ -83,7 +83,7 @@ The system follows a modular monolithic architecture.
 
        
 
-
+```
 
 
 
@@ -540,4 +540,3 @@ erDiagram
 		INT sort_order
 		BOOLEAN thumbnail
 	}
-```
