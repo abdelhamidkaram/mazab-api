@@ -33,5 +33,9 @@ class Product extends Model
     {
         return $this->hasOne(ProductMedia::class)->where('is_thumbnail', true);
     }
-    
+
+    public function auctions()
+    {
+        return $this->hasMany(Auction::class);
+    }
 }
